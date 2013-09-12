@@ -16,26 +16,25 @@
 		<spring.version>3.2.4.RELEASE</spring.version>
 		<spring.mobile>1.1.0.RC1</spring.mobile>
 <!-- 		<spring.security.version>3.1.4.RELEASE</spring.security.version> -->
-	<spring.security.version>3.2.0.RC1</spring.security.version>
- 
-		<slf4j.version>1.6.1</slf4j.version>
+		<spring.security.version>3.2.0.RC1</spring.security.version>
+ 		<slf4j.version>1.7.0</slf4j.version>
 		<java.version>1.6</java.version>
 		<junit.version>4.8.2</junit.version>
 	</properties>
     
     
-<!--     <repositories> -->
-<!--         <repository> -->
-<!--             <id>org.springframework.maven.milestone</id> -->
-<!--             <name>Spring Maven Milestone Repository</name> -->
-<!--             <url>http://maven.springframework.org/milestone</url> -->
-<!--         </repository> -->
-<!--         <repository> -->
-<!--             <id>scientiamobile.public</id> -->
-<!--             <name>Scientia Mobile Public repository</name> -->
-<!--             <url>http://dev.scientiamobile.com/nexus/content/repositories/public-releases/</url> -->
-<!--         </repository> -->
-<!--     </repositories> -->
+    <repositories>
+        <repository>
+            <id>org.springframework.maven.milestone</id>
+            <name>Spring Maven Milestone Repository</name>
+            <url>http://maven.springframework.org/milestone</url>
+        </repository>
+        <repository>
+            <id>scientiamobile.public</id>
+            <name>Scientia Mobile Public repository</name>
+            <url>http://dev.scientiamobile.com/nexus/content/repositories/public-releases/</url>
+        </repository>
+    </repositories>
 
     <dependencies>
         <dependency>
@@ -205,6 +204,7 @@
 			<version>${slf4j.version}</version>
 			<scope>runtime</scope>
 		</dependency>
+		<!-- 
 		<dependency>
 			<groupId>log4j</groupId>
 			<artifactId>log4j</artifactId>
@@ -221,7 +221,7 @@
 			</exclusions>
 			<scope>runtime</scope>
 		</dependency>
-
+ -->
 
 		<dependency>
 			<groupId>jstl</groupId>
