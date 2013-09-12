@@ -73,7 +73,6 @@ public class DeviceInfo implements Device {
 
 	@Override
 	public boolean isNormal() {
-		// TODO Auto-generated method stub
 		return false;
 	}
 
