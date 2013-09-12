@@ -28,7 +28,7 @@ public class HomeController {
     }
 
     private String getView(boolean normal) {
-        return normal ? "index" : "index-mobile";
+        return normal ? "index" : "m/index";
     }
 
 }
